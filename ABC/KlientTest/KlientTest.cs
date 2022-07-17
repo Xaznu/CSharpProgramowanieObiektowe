@@ -90,7 +90,7 @@ namespace ABC.BLTest
         }
 
         [TestMethod]
-        public void ZwaljdujBrakNazwisa()
+        public void ZwaljdujBrakNazwiska()
         {
             // Arrange (zaran¿uj test)
             var klient = new Klient();
