@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testy", "Testy", "{1C4E0C14
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABC.BLTest", "KlientTest\ABC.BLTest.csproj", "{36E7FEFA-980D-4768-B4D3-36CF6701C24A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{29B88CC8-85A5-400D-9774-F260F74771EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTest", "CommonTest\CommonTest.csproj", "{87B90EB8-08ED-463E-9425-AFB700FCC251}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,21 @@ Global
 		{36E7FEFA-980D-4768-B4D3-36CF6701C24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36E7FEFA-980D-4768-B4D3-36CF6701C24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36E7FEFA-980D-4768-B4D3-36CF6701C24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B88CC8-85A5-400D-9774-F260F74771EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B88CC8-85A5-400D-9774-F260F74771EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B88CC8-85A5-400D-9774-F260F74771EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B88CC8-85A5-400D-9774-F260F74771EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B90EB8-08ED-463E-9425-AFB700FCC251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B90EB8-08ED-463E-9425-AFB700FCC251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B90EB8-08ED-463E-9425-AFB700FCC251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B90EB8-08ED-463E-9425-AFB700FCC251}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{36E7FEFA-980D-4768-B4D3-36CF6701C24A} = {1C4E0C14-6888-4C4D-9EB9-878BDE9BA7F0}
+		{87B90EB8-08ED-463E-9425-AFB700FCC251} = {1C4E0C14-6888-4C4D-9EB9-878BDE9BA7F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F717560-0F94-4AD3-93A9-BAE20FC3B198}

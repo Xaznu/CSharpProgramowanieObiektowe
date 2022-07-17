@@ -14,10 +14,13 @@ namespace Common
                 {
                     if (char.IsUpper(litera))
                     {
+                        //przycinamy wszystkie spacje, które już tam są, a potem dodamy naszą spację.
+                        wynik = wynik.Trim();
                         wynik += " ";
                     }
                     wynik += litera;
                 }
+                wynik = wynik.Trim();
             }
 
             return wynik;
