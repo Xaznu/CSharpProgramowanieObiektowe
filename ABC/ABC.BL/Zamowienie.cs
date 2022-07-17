@@ -2,13 +2,13 @@
 
 namespace ABC.BL
 {
-    public class Zemowienie
+    public class Zamowienie
     {
-        public Zemowienie()
+        public Zamowienie()
         {
         }
 
-        public Zemowienie(int zamowienieId)
+        public Zamowienie(int zamowienieId)
         {
             ZamowienieId = zamowienieId;
         }
@@ -21,10 +21,10 @@ namespace ABC.BL
         /// </summary>
         /// <param name="zamowienieId"></param>
         /// <returns></returns>
-        public Zemowienie Pobierz(int zamowienieId)
+        public Zamowienie Pobierz(int zamowienieId)
         {
             // Kod, który pobiera zdefiniowane zamowienie
-            return new Zemowienie();
+            return new Zamowienie();
         }
 
         /// <summary>
