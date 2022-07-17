@@ -60,6 +60,8 @@ namespace ABC.BL
             }
         }
 
+        public int KlientTyp { get; set; }
+
         /// <summary>
         /// Sprawdzamy poprawność wartości właściwości (wymaganych)
         /// </summary>
@@ -102,6 +104,11 @@ namespace ABC.BL
         {
             // Kod, który pobiera wszystkich klientów
             return new List<Klient>();
+        }
+
+        public override string ToString()
+        {
+            return ImieNazwisko;
         }
     }
 }

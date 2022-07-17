@@ -1,4 +1,6 @@
-﻿namespace ABC.BL
+﻿using System;
+
+namespace ABC.BL
 {
     public class ProduktRepository
     {
@@ -11,6 +13,9 @@
         {
             // Tworzymy instancję klasy Produkt i przekazujemy identyfikator
             Produkt produkt = new Produkt(produktId);
+            Object mojObiekt = new Object();
+            Console.WriteLine("Obiekt : " + mojObiekt.ToString());
+            Console.WriteLine("Produkt : " + produkt.ToString());
 
             // Kod, który pobiera zdefiniowany produkt
 
