@@ -17,7 +17,14 @@ namespace ABC.BL
         public int ProduktId { get; private set; }
         public Decimal? AktualnaCena { get; set; }
         public string Opis { get; set; }
-        public string NazwaProduktu { get; set; }
+        private string _NazwaProduktu;
+
+        public string NazwaProduktu
+        {
+            get { return _NazwaProduktu; }
+            set { _NazwaProduktu = value; }
+        }
+
 
         /// <summary>
         /// Sprawdzamy dane produktu
