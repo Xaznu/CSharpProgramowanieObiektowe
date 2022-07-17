@@ -33,7 +33,6 @@ namespace ABC.BL
         /// <summary>
         /// Zapisujemy biezacy produkt
         /// </summary>
-        /// <param name="produktId"></param>
         /// <returns></returns>
         public bool Zapisz()
         {
