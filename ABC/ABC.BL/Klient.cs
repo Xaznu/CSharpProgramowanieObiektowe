@@ -2,7 +2,7 @@
 
 namespace ABC.BL
 {
-    public class Klient
+    public class Klient : KlasaBazowa
     {
         public Klient() : this(0)
         {
@@ -66,7 +66,7 @@ namespace ABC.BL
         /// Sprawdzamy poprawność wartości właściwości (wymaganych)
         /// </summary>
         /// <returns></returns>
-        public bool Zwaliduj()
+        public override bool Zwaliduj()
         {
             var poprawne = true;
 
