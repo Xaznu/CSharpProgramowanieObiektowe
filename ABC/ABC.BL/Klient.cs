@@ -4,6 +4,16 @@ namespace ABC.BL
 {
     public class Klient
     {
+        public Klient()
+        {
+
+        }
+
+        public Klient(int klientId)
+        {
+            KlientId = klientId;
+        }
+
         public static int Licznik { get; set; }
 
 
