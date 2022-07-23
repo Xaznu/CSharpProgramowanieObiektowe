@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using Common;
+using System.Collections.Generic;
 
 namespace ABC.BL
 {
-    public class Klient : KlasaBazowa
+    public class Klient : KlasaBazowa, ILogowanie
     {
         public Klient() : this(0)
         {
