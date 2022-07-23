@@ -1,8 +1,17 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+
+
 namespace Common
 {
-    public interface ILogowanie
+    public class UslugaLogowanie
     {
-        string Log();
+        public static void PiszDoPliku(List<ILogowanie> ZmienioneElementy)
+        {
+            foreach (var element in ZmienioneElementy)
+            {
+                Console.WriteLine(element.Log());
+            }
+        }
     }
 }
